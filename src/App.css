@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: ghostwhite;
+}
+.app-wrapper {
+  display: grid;
+  grid-template-areas: 
+  "h h"
+  "n c";
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 3px ;
+  margin: 0 auto;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: burlywood;
+}
+.app-wrapper-content img{
+  
+}
+
